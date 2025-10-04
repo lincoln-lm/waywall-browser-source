@@ -1,0 +1,21 @@
+{
+  "name": "browser-source",
+  "version": "1.0.0",
+  "description": "hi",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.1",
+    "yargs": "^18.0.0"
+  },
+  "devDependencies": {
+    "electron": "^38.2.0"
+  }
+}
