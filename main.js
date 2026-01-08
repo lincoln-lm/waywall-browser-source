@@ -53,7 +53,6 @@ app.on("activate", () => {
 });
 if (argv.hidden_handle) {
   fs.watch(argv.hidden_handle, (eventType, filename) => {
-    console.log("hi");
     if (eventType === "change") {
       if (isHidden) {
         win.webContents.executeJavaScript(
